@@ -1,0 +1,63 @@
+.container {
+    margin: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    
+}
+
+.column {
+    display: flex;
+    width: 50%;
+}
+
+.qcol1 {
+    width: 60%;
+}
+
+.qcol2 {
+    width: 40%
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+}
+
+#building-title {
+    margin-bottom: 40px;
+}
+
+.population {
+    text-align: center;
+}
+
+tr, td {
+    padding: 15px;
+}
+
+#tooltip {
+    position: absolute;
+    width: 120px;
+    height: auto;
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+#tooltip.hidden {
+    display: none;
+}
+
+#tooltip span {
+    font-size: 12px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#tooltip #country {
+    font-weight: bold;
+}
+  
